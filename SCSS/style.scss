@@ -1,0 +1,237 @@
+@import "_nullstyle.scss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+.content {
+  flex: 1 1 auto;
+}
+.hi {
+  background-color: #445162;
+  padding: 50px 0;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__body {
+    color: white;
+    padding: 0 30px 0 0;
+  }
+
+  &__title {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    margin: 0 0 40px 0;
+  }
+
+  &__image {
+  }
+}
+.conteiner {
+}
+.list {
+  & li {
+    background: url(/img/galka3prkich.jpg) 0 1px no-repeat;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 30px;
+    list-style: 22px;
+    padding: 0 0 0 50px;
+    margin: 0 0 17px 0;
+    background-size: 35px 35px;
+  }
+  & li:last-child {
+    margin: 0;
+  }
+}
+
+.colums {
+  background-color: #f5f5f5;
+  padding: 50px 0 30px 0;
+  &__title {
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+  }
+
+  &__column {
+    flex: 0 1 50%;
+    margin: 0 0 30px 0;
+    padding: 0 8px;
+  }
+
+  &__item {
+  }
+}
+.container {
+}
+.item {
+  &__row {
+    display: flex;
+  }
+
+  &__image {
+    flex: 0 0 200 px;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 15px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  &__title {
+    color: #445161;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 13px 0;
+  }
+}
+
+.vertical {
+  padding: 50px 0;
+  &_column {
+    flex: 0 1 33.333%;
+    padding: 0 22.5px;
+  }
+
+  &_subtitle {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12px 0;
+  }
+
+  &_btm {
+    display: block;
+    height: 40px;
+    background-color: #fff;
+    color: #445162;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 20px;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+
+  &__body {
+    max-width: 990px;
+    margin: 0 auto;
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 -22.5px;
+  }
+
+  &__item {
+    background-color: rgb(182, 60, 80);
+    color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid rgb(97, 33, 89);
+    padding: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    text-align: center;
+    background-color: #fff;
+    color: #445162;
+    padding: 15px 0;
+    font-size: 40px;
+  }
+
+  &__text {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+}
+.container {
+}
+
+.footer {
+  background-color: #f5f5f5;
+  &__row {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    color: #445162;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
+.title {
+  color: #445161;
+  font-size: 40px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.what {
+  padding: 50px 0;
+  &__row {
+    display: flex;
+  }
+
+  &__image {
+    flex: 0 0 450px;
+  }
+
+  &__image img {
+    max-width: 100%;
+  }
+
+  &__title {
+    margin: 0 0 48px 0;
+  }
+
+  &__text {
+    margin: 0 0 26px 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 30px;
+  }
+}
+.container {
+}
